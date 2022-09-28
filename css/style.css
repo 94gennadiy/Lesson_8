@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Lato';
+}
+
+[class*="__container"] {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.block__container {
+    margin-bottom: 50px;
+}
+
+.block__title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59.8px;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+
+.block__main-text {
+    line-height: 25.6px;
+    color: #424551;
+    margin-bottom: 48px;
+}
+
+.block__list-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+
+.block__list {
+    line-height: 25.6px;
+    color: #424551;
+}
+
+.block__list li {
+    margin-bottom: 4px;
+    padding-left: 32px;
+    background: url("..//img/icons/Vector.png") 0 6px no-repeat;
+    color: #424551;
+}
+
+.block2__container {
+    margin-bottom: 50px;
+}
+
+.block2__curator-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+
+.block2__curator-name {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59.8px;
+    color: #1E212C;
+    margin-bottom: 16px;
+}
+
+.block2__curator-position {
+    font-size: 20px;
+    line-height: 30px;
+    color: #787A80;
+    margin-bottom: 32px;
+}
+
+.block2__list {
+    font-weight: 700;
+    line-height: 25.6px;
+    color: #424551;
+    margin-bottom: 32px;
+}
+
+.block2__list li {
+    margin-bottom: 4px;
+    padding-left: 24px;
+}
+
+.block2__list li:nth-child(1) {
+    background: url("..//img/icons/Star.png") 0 5px no-repeat;
+}
+
+.block2__list li:nth-child(2) {
+    background: url("..//img/icons/Play.png") 0 5px no-repeat;
+}
+
+.block2__list li:nth-child(3) {
+    background: url("..//img/icons/Profile.png") 0 5px no-repeat;
+}
+
+.block2__main-text {
+    line-height: 25.6px;
+    color: #424551;
+}
+
+.hover-test {
+    border: 1px solid red;
+    background-color: #616161;
+}
+
+.hover-test h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.hover-test h2:hover {
+    text-align: right;
+    color: red;
+}
+
+.hover-test p {
+    background-color: #4e5d89;
+    font-size: 35px;
+    width: 500px;
+    height: 300px;
+    visibility: hidden;
+}
+
+.hover-test:hover .hover-text {
+    visibility: visible;
+}
+
+.active-test a {
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+.active-test a:active {
+    font-size: 50px;
+    text-decoration: overline;
+    color: red;
+}
+
+.active-test a:visited {
+    color: green
+}
+
+.punk {
+    margin: 10px 10px 50px 10px;
+    border: 1px solid red;
+}
+
+.punk ul {
+    margin-left: 20px;
+}
+
+ul ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+footer>a {
+    font-size: 40px;
+    margin: 20px;
+}
+
+footer>a:focus {
+    outline: 5px dotted blue;
+}
+
+.kek {
+    font-size: 30px;
+    background-color: aqua;
+    color: black;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: none;
+}
+
+.kek p {
+    padding: 120px 50px 50px 50px;
+    text-align: justify;
+}
+
+.kek:target {
+    display: block;
+}
+
+.kids {
+    background-color: grey;
+    font-size: 25px;
+    margin: 25px;
+    color: white;
+}
+
+.kids p {
+    margin: 5px;
+    padding: 5px;
+}
+
+.kids p:first-child {
+    color: red;
+}
+
+.kids p:last-child {
+    color: brown;
+}
+
+.kids p:nth-child(2) {
+    color: cornflowerblue;
+}
+
+.kids p:nth-child(3) {
+    color: yellow;
+}
+
+.types {
+    background-color: grey;
+    font-size: 25px;
+    margin: 25px;
+    color: white;
+}
+
+.types p {
+    margin: 5px;
+    padding: 5px;
+}
+
+.types h2 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.types p:first-of-type {
+    color: red;
+}
+
+.types p:last-of-type {
+    color: green;
+}
+
+.types p:nth-of-type(3) {
+    color: blue;
+}
+
+.types h2:nth-of-type(3) {
+    color: blueviolet;
+}
+
+.not {
+    background-color: grey;
+    font-size: 25px;
+    margin: 25px;
+    color: white;
+}
+
+.not p:not(:last-child) {
+    color: red;
+}
+
+.before {
+    width: 300px;
+    height: 100px;
+    background-color: #4e5d89;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+.before li::before {
+    background: url('..//img/icons/Star.png') 0 4px no-repeat;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.before li::after {
+    background: url('..//img/icons/Profile.png') 0 6px no-repeat;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.before li:hover::before {
+    background: url('..//img/icons/Play.png') 0 4px no-repeat;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.before li:hover:after {
+    background: url('..//img/icons/Vector.png') 0 5px no-repeat;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
